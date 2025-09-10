@@ -23,7 +23,10 @@ public class Calculator
 
     public int addition(int x, int y) 
     { 
-       //return x + y; 
+       int sum = 0;
+       sum += a;
+       sum += b;
+       return sum;
     } 
     public int subtraction(int x, int y) 
     { 
